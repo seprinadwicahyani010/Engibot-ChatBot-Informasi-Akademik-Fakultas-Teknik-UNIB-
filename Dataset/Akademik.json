@@ -1,0 +1,1657 @@
+{
+  "intents": [
+    {
+      "tag": "introduksi_engibot",
+      "patterns": [
+        "Apa itu EngiBot?",
+        "Siapa EngiBot?",
+        "Apa yang bisa dilakukan EngiBot?",
+        "Apa fungsi EngiBot?",
+        "EngiBot itu apa?",
+        "Ceritakan tentang EngiBot",
+        "Bisa jelaskan EngiBot?",
+        "Apa manfaat EngiBot?"
+      ],
+      "responses": [
+        "EngiBot adalah asisten virtual yang dirancang untuk membantumu dalam berbagai urusan akademik. Tanya apa saja, aku akan berusaha memberikan jawaban yang tepat!",
+        "Aku EngiBot! Tugas utamaku adalah memberikan informasi dan menjawab pertanyaan seputar akademik. Apa yang ingin kamu ketahui?",
+        "Hai! Aku EngiBot, siap memberikan jawaban tepat untuk semua urusan akademikmu. Jangan ragu untuk bertanya!",
+        "EngiBot di sini! Aku adalah bot yang bertugas membantumu memahami informasi terkait akademik. Tanyakan apa pun!",
+        "Aku EngiBot, asisten akademikmu yang siap menjawab pertanyaan kapan saja. Apa yang bisa aku bantu?",
+        "EngiBot adalah asisten virtual Fakultas Teknik Universitas Bengkulu. Aku hadir untuk menjawab pertanyaanmu seputar akademik, termasuk informasi tentang mata kuliah, KRS, KHS, SKS, transkrip nilai, dan lainnya.",
+        "EngiBot dirancang untuk membantu mahasiswa Fakultas Teknik Universitas Bengkulu. Tanya EngiBot, Jawaban Tepat untuk Semua Urusan Akademik Fakultas Teknik!",
+        "EngiBot adalah chatbot pintar yang siap membantumu memahami informasi penting terkait akademik di Fakultas Teknik Universitas Bengkulu."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan",
+        "sobat",
+        "hello",
+        "what's up",
+        "hey",
+        "yo"
+      ],
+      "responses": [
+        "Hai! EngiBot hadir untuk membantumu. Apa yang ingin kamu tanyakan?",
+        "Halo! Aku EngiBot, siap menjawab pertanyaanmu. Apa yang kamu butuhkan?",
+        "Hei sobat! Ini EngiBot. Ada yang bisa aku bantu?",
+        "Hi, aku EngiBot! Lagi cari informasi apa nih?",
+        "Halo, EngiBot di sini! Aku siap membantu kamu dengan informasi yang kamu butuhkan."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you",
+        "Catch you later",
+        "Later",
+        "Take care"
+      ],
+      "responses": [
+        "Bye! Sampai jumpa lagi!",
+        "Dadah! Semoga harimu menyenangkan!",
+        "Good bye! Sampai ketemu lagi!",
+        "Dahh, semoga harimu penuh kebahagiaan!",
+        "See ya! Senang bisa membantumu!",
+        "Sampai jumpa! Jangan ragu untuk bertanya lagi, ya!",
+        "Take care! Aku akan selalu di sini jika kamu butuh bantuan."
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak",
+        "Thank you so much",
+        "Much obliged",
+        "Appreciate it"
+      ],
+      "responses": [
+        "Dengan senang hati! :)",
+        "Sama-sama! Selalu siap membantu!",
+        "Terima kasih kembali, aku senang bisa membantu!",
+        "Kapan saja! Aku selalu di sini untukmu.",
+        "Tidak masalah, semoga harimu menyenangkan!"
+      ]
+    },
+    {
+      "tag": "program_studi",
+      "patterns": [
+        "Apa saja program studi di Fakultas Teknik?",
+        "Jurusan apa yang ada di Fakultas Teknik?",
+        "Sebutkan program studi Fakultas Teknik!",
+        "Ada jurusan Teknik apa saja di UNIB?",
+        "Program studi Fakultas Teknik?"
+      ],
+      "responses": [
+        "Fakultas Teknik Universitas Bengkulu memiliki program studi berikut:\n- Teknik Sipil\n- Teknik Elektro\n- Teknik Mesin\n- Arsitektur\n- Sistem Informasi\n- Informatika"
+      ]
+    },
+    {
+      "tag": "informasi_akademik",
+      "patterns": [
+        "Bagaimana cara mengisi KRS di Fakultas Teknik?",
+        "Apa itu KHS dan bagaimana mengaksesnya?",
+        "Berapa jumlah SKS yang bisa diambil mahasiswa Fakultas Teknik?",
+        "Apa panduan skripsi di Fakultas Teknik?",
+        "Bagaimana proses tugas akhir di Fakultas Teknik?"
+      ],
+      "responses": [
+        "Informasi akademik di Fakultas Teknik mencakup:\n- Panduan pengisian KRS melalui portal akademik kampus.\n- Akses KHS juga melalui portal akademik setelah nilai diumumkan.\n- Jumlah SKS maksimal tergantung IP semester sebelumnya.\n- Panduan skripsi dan tugas akhir tersedia di situs fakultas atau melalui bagian akademik."
+      ]
+    },
+    {
+      "tag": "kegiatan_fakultas",
+      "patterns": [
+        "Ada kegiatan apa saja di Fakultas Teknik?",
+        "Kegiatan Fakultas Teknik apa yang terbaru?",
+        "Apakah ada seminar di Fakultas Teknik?",
+        "Kegiatan praktisi mengajar di Fakultas Teknik?",
+        "Acara fakultas teknik terbaru apa?"
+      ],
+      "responses": [
+        "Fakultas Teknik mengadakan berbagai kegiatan seperti:\n- Pelatihan dan seminar.\n- Kegiatan praktisi mengajar.\n- Kerjasama dengan instansi lain. Untuk informasi terkini, silakan cek situs fakultas atau media sosial mereka."
+      ]
+    },
+    {
+      "tag": "fasilitas_fakultas",
+      "patterns": [
+        "Fasilitas apa yang dimiliki Fakultas Teknik?",
+        "Apakah ada laboratorium di Fakultas Teknik?",
+        "Dimana saya bisa belajar di Fakultas Teknik?",
+        "Fasilitas ruang baca di Fakultas Teknik?",
+        "Fasilitas unggulan Fakultas Teknik?"
+      ],
+      "responses": [
+        "Fasilitas yang dimiliki Fakultas Teknik meliputi:\n- Laboratorium untuk setiap program studi.\n- Perpustakaan yang nyaman.\n- Ruang baca untuk mahasiswa."
+      ]
+    },
+    {
+      "tag": "kontak_fakultas",
+      "patterns": [
+        "Bagaimana cara menghubungi Fakultas Teknik?",
+        "Apakah Fakultas Teknik memiliki media sosial?",
+        "Kontak Fakultas Teknik Universitas Bengkulu?",
+        "Dimana alamat Fakultas Teknik?",
+        "Media sosial resmi Fakultas Teknik?"
+      ],
+      "responses": [
+        "Untuk menghubungi Fakultas Teknik Universitas Bengkulu, gunakan kontak berikut:\n- Alamat: Kampus Universitas Bengkulu, Bengkulu.\n- Media sosial: Cek akun resmi Fakultas Teknik di Instagram dan Facebook.\n- Informasi lebih lengkap di situs web: https://ft.unib.ac.id/"
+      ]
+    },
+    {
+      "tag": "visi_misi",
+      "patterns": [
+        "Apa visi Fakultas Teknik?",
+        "Misi Fakultas Teknik UNIB?",
+        "Visi dan misi Fakultas Teknik Universitas Bengkulu?",
+        "Jelaskan visi Fakultas Teknik?",
+        "Apa tujuan Fakultas Teknik?"
+      ],
+      "responses": [
+        "Visi Fakultas Teknik Universitas Bengkulu adalah menjadi Fakultas Unggul, Berkarakter, dan Berdaya Saing di ASIA. Misinya mencakup pengembangan pendidikan, penelitian, dan pengabdian masyarakat dengan inovasi teknologi."
+      ]
+    },
+    {
+      "tag": "ormawa_fakultas_teknik",
+      "patterns": [
+        "Apa itu Ormawa di Fakultas Teknik?",
+        "Organisasi mahasiswa Fakultas Teknik",
+        "Apa saja Ormawa di Fakultas Teknik?",
+        "Organisasi yang ada di Fakultas Teknik",
+        "Apa saja BEM dan HMJ di Fakultas Teknik?"
+      ],
+      "responses": [
+        "Fakultas Teknik Universitas Bengkulu memiliki berbagai Ormawa yang aktif, antara lain:\n\n1. **Badan Eksekutif Mahasiswa Fakultas Teknik (BEM FT)**: Mengkoordinasi kegiatan mahasiswa di tingkat fakultas dan menyelenggarakan berbagai acara akademik dan non-akademik.\n\n2. **Himpunan Mahasiswa Jurusan (HMJ)**: Setiap program studi di Fakultas Teknik memiliki HMJ, yang bertujuan untuk menampung aspirasi mahasiswa dan menyelenggarakan kegiatan sesuai dengan jurusan, antara lain:\n   - **HIMATE** (Himpunan Mahasiswa Teknik Elektro)\n   - **HMS** (Himpunan Mahasiswa Teknik Sipil)\n   - **HMM** (Himpunan Mahasiswa Teknik Mesin)\n   - **HMA** (Himpunan Mahasiswa Arsitektur)\n   - **HIMATIF** (Himpunan Mahasiswa Teknik Informatika)\n   - **HIMASI** (Himpunan Mahasiswa Sistem Informasi)\n\n3. **Dewan Perwakilan Mahasiswa Fakultas Teknik (DPM FT)**: Badan legislatif yang mengawasi kinerja BEM FT dan menyalurkan aspirasi mahasiswa di tingkat fakultas.\n\n4. **Majelis Permusyawaratan Mahasiswa Fakultas Teknik (MPM FT)**: Badan tertinggi dalam organisasi mahasiswa Fakultas Teknik yang menetapkan kebijakan umum dan garis besar program kerja.\n\nSemua organisasi ini berperan penting dalam kegiatan akademik dan non-akademik di Fakultas Teknik."
+      ]
+    },
+    {
+      "tag": "kontak_ormawa",
+      "patterns": [
+        "Dimana saya bisa menghubungi BEM Fakultas Teknik?",
+        "Apa akun media sosial Ormawa Fakultas Teknik?",
+        "Kontak BEM Fakultas Teknik?",
+        "Instagram BEM Fakultas Teknik?",
+        "Apa saja media sosial Ormawa Fakultas Teknik?"
+      ],
+      "responses": [
+        "Untuk menghubungi Ormawa di Fakultas Teknik Universitas Bengkulu, Anda bisa mengikuti media sosial berikut:\n\n1. **BEM FT** - Instagram: [@bemftkbmunib](https://www.instagram.com/bemftkbmunib/?utm_source=chatgpt.com)\n2. **Fakultas Teknik Universitas Bengkulu** - Instagram: [@ftunib_official](https://www.instagram.com/ftunib_official/?hl=en)\n3. **Facebook**: [BEM Fakultas Teknik Universitas Bengkulu](https://www.facebook.com/bemftunib/)\n\nMedia sosial ini akan memberikan informasi terkini mengenai kegiatan dan acara yang diadakan oleh Ormawa Fakultas Teknik."
+      ]
+    },
+    {
+      "tag": "kegiatan_ormawa",
+      "patterns": [
+        "Apa saja kegiatan yang diadakan Ormawa Fakultas Teknik?",
+        "Kegiatan apa yang diselenggarakan BEM Fakultas Teknik?",
+        "Kegiatan organisasi mahasiswa di Fakultas Teknik",
+        "Apa acara terbaru di Fakultas Teknik?"
+      ],
+      "responses": [
+        "Organisasi Mahasiswa Fakultas Teknik Universitas Bengkulu menyelenggarakan berbagai kegiatan, seperti:\n\n1. **Seminar dan Pelatihan**: Berfokus pada pengembangan akademik dan profesional mahasiswa.\n2. **Lomba dan Kompetisi**: Mengorganisir berbagai lomba di bidang teknologi dan inovasi.\n3. **Kegiatan Sosial**: Menyelenggarakan kegiatan pengabdian masyarakat dan program sosial.\n4. **Kerjasama Industri**: Mengundang praktisi industri untuk memberikan pelatihan dan berbagi ilmu.\n5. **Acara Budaya dan Seni**: Menyelenggarakan acara kebudayaan untuk meningkatkan kreativitas mahasiswa.\n\nSemua kegiatan ini bertujuan untuk mengembangkan potensi mahasiswa di luar kegiatan akademik."
+      ]
+    },
+    {
+      "tag": "krs_procedure",
+      "patterns": [
+        "Bagaimana cara mengisi KRS?",
+        "Apa langkah-langkah pengisian KRS?",
+        "Panduan mengisi KRS",
+        "Langkah-langkah KRS di portal",
+        "Cara input KRS",
+        "Prosedur pengisian KRS"
+      ],
+      "responses": [
+        "Untuk mengisi KRS, login ke portal mahasiswa, pilih menu KRS, tambahkan mata kuliah yang ingin diambil, dan simpan perubahan. Pastikan konsultasi dengan dosen pembimbing terlebih dahulu."
+      ]
+    },
+    {
+      "tag": "krs_deadline",
+      "patterns": [
+        "Kapan deadline KRS?",
+        "Batas waktu pengisian KRS",
+        "Sampai kapan bisa isi KRS?",
+        "KRS terakhir kapan?",
+        "Deadline input KRS"
+      ],
+      "responses": [
+        "Deadline pengisian KRS biasanya tercantum di kalender akademik. Silakan cek portal kampus atau tanyakan ke bagian akademik untuk informasi lebih lanjut."
+      ]
+    },
+    {
+      "tag": "krs_edit",
+      "patterns": [
+        "Apakah KRS bisa diubah?",
+        "Bagaimana cara mengubah KRS?",
+        "Bisa nggak ganti mata kuliah di KRS?",
+        "Cara revisi KRS"
+      ],
+      "responses": [
+        "KRS bisa diubah selama periode revisi yang biasanya berlangsung setelah pengisian awal. Silakan login ke portal mahasiswa dan pilih menu revisi KRS."
+      ]
+    },
+    {
+      "tag": "krs_approval",
+      "patterns": [
+        "Bagaimana cara mendapat persetujuan KRS?",
+        "KRS harus disetujui siapa?",
+        "KRS belum disetujui dosen pembimbing"
+      ],
+      "responses": [
+        "Setelah mengisi KRS, pastikan Anda konsultasi dengan dosen pembimbing. Mereka akan memberikan persetujuan melalui portal akademik."
+      ]
+    },
+    {
+      "tag": "krs_error",
+      "patterns": [
+        "Kenapa saya tidak bisa mengisi KRS?",
+        "Mengapa KRS saya tidak muncul?",
+        "Portal KRS error",
+        "Gagal input KRS",
+        "KRS tidak bisa disimpan"
+      ],
+      "responses": [
+        "Jika Anda mengalami masalah saat mengisi KRS, pastikan koneksi internet stabil. Jika masih bermasalah, segera hubungi bagian IT atau akademik kampus."
+      ]
+    },
+    {
+      "tag": "krs_conditions",
+      "patterns": [
+        "Apa saja syarat pengisian KRS?",
+        "Dokumen apa yang dibutuhkan untuk KRS?",
+        "Syarat mengisi KRS"
+      ],
+      "responses": [
+        "Syarat pengisian KRS meliputi pembayaran uang kuliah, IPK semester sebelumnya, dan persetujuan dosen pembimbing. Pastikan semua dokumen terkait telah tersedia."
+      ]
+    },
+    {
+      "tag": "krs_full_course",
+      "patterns": [
+        "Bagaimana kalau mata kuliah penuh di KRS?",
+        "Apa yang harus dilakukan kalau mata kuliah penuh?",
+        "Mata kuliah penuh di sistem"
+      ],
+      "responses": [
+        "Jika mata kuliah penuh, Anda bisa mencoba mengambil kelas lain yang setara. Hubungi bagian akademik atau dosen pengampu untuk mendapatkan solusi."
+      ]
+    },
+    {
+      "tag": "krs_cancellation",
+      "patterns": [
+        "Bagaimana cara membatalkan KRS?",
+        "Cara drop mata kuliah dari KRS",
+        "Membatalkan pengisian KRS"
+      ],
+      "responses": [
+        "Untuk membatalkan KRS, ajukan permohonan ke bagian akademik kampus selama masa revisi. Pastikan Anda berkonsultasi dengan dosen pembimbing terlebih dahulu."
+      ]
+    },
+    {
+      "tag": "krs_registration_period",
+      "patterns": [
+        "Kapan periode pengisian KRS?",
+        "Berapa lama waktu pengisian KRS?",
+        "Jadwal pengisian KRS"
+      ],
+      "responses": [
+        "Periode pengisian KRS biasanya diumumkan di kalender akademik atau portal kampus. Informasi detailnya bisa dicek di bagian akademik."
+      ]
+    },
+    {
+      "tag": "krs_portal_guide",
+      "patterns": [
+        "Bagaimana cara menggunakan portal untuk KRS?",
+        "Panduan KRS di portal mahasiswa",
+        "Tutorial KRS di sistem akademik"
+      ],
+      "responses": [
+        "Untuk menggunakan portal, login menggunakan akun mahasiswa Anda, pilih menu 'KRS', lalu tambahkan mata kuliah sesuai kebutuhan. Simpan setelah selesai."
+      ]
+    },
+    {
+      "tag": "krs_overview",
+      "patterns": ["Apa itu KRS?", "Pengertian KRS", "Fungsi KRS"],
+      "responses": [
+        "KRS atau Kartu Rencana Studi adalah dokumen elektronik yang mencatat rencana mata kuliah yang akan Anda ambil pada semester tersebut."
+      ]
+    },
+    {
+      "tag": "krs_fees",
+      "patterns": [
+        "Apakah ada biaya untuk mengisi KRS?",
+        "Apakah pengisian KRS gratis?",
+        "Biaya yang diperlukan untuk KRS"
+      ],
+      "responses": [
+        "Pengisian KRS tidak dikenakan biaya tambahan, tetapi pastikan pembayaran SPP atau biaya kuliah sudah lunas sesuai ketentuan kampus."
+      ]
+    },
+    {
+      "tag": "krs_add_course",
+      "patterns": [
+        "Bagaimana cara menambah mata kuliah di KRS?",
+        "Cara menambahkan mata kuliah setelah KRS disimpan",
+        "Apakah saya bisa menambah mata kuliah?"
+      ],
+      "responses": [
+        "Mata kuliah dapat ditambahkan selama masa revisi KRS. Login ke portal mahasiswa, pilih menu 'Revisi KRS', tambahkan mata kuliah, lalu simpan."
+      ]
+    },
+    {
+      "tag": "krs_limit",
+      "patterns": [
+        "Berapa jumlah mata kuliah maksimal di KRS?",
+        "Batas maksimal SKS yang bisa diambil",
+        "Apakah ada limit SKS per semester?"
+      ],
+      "responses": [
+        "Batas maksimal SKS per semester tergantung pada IPK semester sebelumnya. Biasanya, mahasiswa dengan IPK tinggi dapat mengambil lebih banyak SKS."
+      ]
+    },
+    {
+      "tag": "krs_dropped_course",
+      "patterns": [
+        "Bagaimana jika saya lupa menghapus mata kuliah di KRS?",
+        "Apakah bisa membatalkan mata kuliah setelah masa KRS?",
+        "Drop mata kuliah setelah masa revisi"
+      ],
+      "responses": [
+        "Jika masa revisi KRS sudah berakhir, Anda harus mengajukan permohonan khusus ke bagian akademik atau konsultasi dengan dosen pembimbing."
+      ]
+    },
+    {
+      "tag": "krs_account_access",
+      "patterns": [
+        "Kenapa saya tidak bisa login ke portal KRS?",
+        "Akun portal KRS saya terkunci",
+        "Bagaimana cara reset password untuk portal KRS?"
+      ],
+      "responses": [
+        "Jika Anda tidak bisa login ke portal KRS, silakan gunakan fitur lupa password atau hubungi bagian IT kampus untuk bantuan lebih lanjut."
+      ]
+    },
+    {
+      "tag": "krs_ipk_requirement",
+      "patterns": [
+        "Apakah IPK memengaruhi jumlah SKS di KRS?",
+        "Berapa IPK minimum untuk mengambil 24 SKS?",
+        "Pengaruh IPK terhadap SKS di KRS"
+      ],
+      "responses": [
+        "Ya, IPK memengaruhi jumlah SKS yang dapat diambil. Biasanya, IPK ≥ 3,00 memungkinkan Anda mengambil hingga 24 SKS."
+      ]
+    },
+    {
+      "tag": "krs_schedule_conflict",
+      "patterns": [
+        "Bagaimana jika ada jadwal mata kuliah yang bentrok di KRS?",
+        "Jadwal mata kuliah bertabrakan di KRS",
+        "Apa yang harus dilakukan jika jadwal bentrok?"
+      ],
+      "responses": [
+        "Jika jadwal bentrok, coba pilih kelas lain untuk mata kuliah tersebut. Jika tidak memungkinkan, konsultasikan dengan dosen pengampu atau bagian akademik."
+      ]
+    },
+    {
+      "tag": "krs_contact_support",
+      "patterns": [
+        "Siapa yang bisa saya hubungi jika ada masalah dengan KRS?",
+        "Kontak untuk bantuan pengisian KRS",
+        "Layanan akademik untuk KRS"
+      ],
+      "responses": [
+        "Untuk masalah terkait KRS, Anda dapat menghubungi bagian akademik fakultas atau layanan IT kampus melalui email atau telepon yang tersedia di portal."
+      ]
+    },
+    {
+      "tag": "krs_advisor_help",
+      "patterns": [
+        "Bagaimana peran dosen pembimbing dalam pengisian KRS?",
+        "Apa fungsi dosen pembimbing dalam proses KRS?",
+        "KRS harus dikonsultasikan dengan siapa?"
+      ],
+      "responses": [
+        "Dosen pembimbing membantu memastikan mata kuliah yang Anda pilih sesuai dengan kurikulum dan rencana studi Anda. Pastikan konsultasi sebelum menyimpan KRS."
+      ]
+    },
+    {
+      "tag": "krs_login_guide",
+      "patterns": [
+        "Bagaimana cara login ke portal untuk KRS?",
+        "Langkah-langkah login ke sistem KRS",
+        "Login portal KRS"
+      ],
+      "responses": [
+        "Untuk login, buka portal akademik kampus, masukkan NIM dan password Anda. Jika pertama kali login, gunakan password default yang telah diberikan."
+      ]
+    },
+    {
+      "tag": "krs_important_date",
+      "patterns": [
+        "Kapan jadwal penting terkait KRS?",
+        "Tanggal penting untuk pengisian KRS",
+        "Periode KRS dan revisi"
+      ],
+      "responses": [
+        "Tanggal penting seperti pembukaan pengisian KRS, revisi, dan deadline biasanya diumumkan di kalender akademik atau portal mahasiswa."
+      ]
+    },
+    {
+      "tag": "khs_definition",
+      "patterns": ["Apa itu KHS?", "Pengertian KHS", "KHS itu apa?"],
+      "responses": [
+        "KHS atau Kartu Hasil Studi adalah dokumen yang mencatat hasil studi mahasiswa dalam satu semester, termasuk nilai setiap mata kuliah dan IP semester."
+      ]
+    },
+    {
+      "tag": "khs_retrieval",
+      "patterns": [
+        "Bagaimana cara mendapatkan KHS?",
+        "Dimana saya bisa mengambil KHS?",
+        "Cara mengambil KHS"
+      ],
+      "responses": [
+        "KHS dapat diunduh melalui portal mahasiswa pada menu 'KHS'. Jika membutuhkan cetakan resmi, silakan hubungi bagian akademik fakultas."
+      ]
+    },
+    {
+      "tag": "khs_period",
+      "patterns": [
+        "Kapan KHS biasanya keluar?",
+        "Berapa lama KHS diterbitkan?",
+        "KHS keluar setelah berapa lama?"
+      ],
+      "responses": [
+        "KHS biasanya diterbitkan beberapa minggu setelah ujian akhir semester dan semua nilai sudah diinput oleh dosen."
+      ]
+    },
+    {
+      "tag": "khs_content",
+      "patterns": [
+        "Apa saja yang tercantum di KHS?",
+        "Informasi apa yang ada di KHS?",
+        "Isi KHS"
+      ],
+      "responses": [
+        "KHS mencantumkan mata kuliah yang diambil, nilai yang diperoleh, jumlah SKS, IP semester, dan IPK kumulatif."
+      ]
+    },
+    {
+      "tag": "khs_download",
+      "patterns": [
+        "Bagaimana cara mengunduh KHS?",
+        "Bisakah saya download KHS dari portal?",
+        "Download KHS di mana?"
+      ],
+      "responses": [
+        "Anda bisa mengunduh KHS dari portal mahasiswa pada menu 'KHS' atau 'Hasil Studi'. Pastikan login dengan akun mahasiswa Anda."
+      ]
+    },
+    {
+      "tag": "khs_revision",
+      "patterns": [
+        "Bagaimana jika ada kesalahan di KHS?",
+        "Apa yang harus dilakukan jika nilai di KHS salah?",
+        "Revisi nilai di KHS"
+      ],
+      "responses": [
+        "Jika ada kesalahan pada KHS, segera laporkan ke bagian akademik fakultas dengan membawa bukti nilai atau komunikasi dengan dosen terkait."
+      ]
+    },
+    {
+      "tag": "khs_ipk",
+      "patterns": [
+        "Apakah KHS menunjukkan IPK?",
+        "Dimana saya bisa melihat IPK?",
+        "IPK ada di KHS?"
+      ],
+      "responses": [
+        "Ya, KHS mencantumkan IPK kumulatif Anda di bagian bawah. Jika tidak terlihat, coba cek portal atau hubungi bagian akademik."
+      ]
+    },
+    {
+      "tag": "khs_access_issue",
+      "patterns": [
+        "Kenapa saya tidak bisa melihat KHS di portal?",
+        "KHS saya tidak muncul di sistem",
+        "Gagal akses KHS"
+      ],
+      "responses": [
+        "Jika KHS tidak muncul, pastikan semua nilai sudah diinput oleh dosen. Jika masih bermasalah, hubungi bagian akademik atau layanan IT kampus."
+      ]
+    },
+    {
+      "tag": "khs_requirements",
+      "patterns": [
+        "Apa syarat untuk mendapatkan KHS?",
+        "Apakah ada syarat untuk melihat KHS?",
+        "Syarat penerbitan KHS"
+      ],
+      "responses": [
+        "Untuk mendapatkan KHS, pastikan Anda telah menyelesaikan semua mata kuliah yang diambil dan tidak memiliki tunggakan administrasi atau keuangan."
+      ]
+    },
+    {
+      "tag": "khs_official",
+      "patterns": [
+        "Bagaimana cara mendapatkan KHS resmi?",
+        "Apakah KHS dari portal bisa digunakan secara resmi?",
+        "Dimana mendapatkan KHS dengan tanda tangan?"
+      ],
+      "responses": [
+        "Untuk mendapatkan KHS resmi dengan tanda tangan, silakan ajukan permohonan ke TU fakultas Anda. KHS dari portal biasanya hanya untuk referensi."
+      ]
+    },
+    {
+      "tag": "khs_ip",
+      "patterns": [
+        "Bagaimana cara menghitung IP semester di KHS?",
+        "Apakah KHS mencantumkan IP semester?",
+        "Cara melihat IP di KHS"
+      ],
+      "responses": [
+        "KHS mencantumkan IP semester Anda di bagian atas atau tengah dokumen. Nilai ini dihitung dari rata-rata nilai mata kuliah berdasarkan SKS."
+      ]
+    },
+    {
+      "tag": "khs_late_release",
+      "patterns": [
+        "Kenapa KHS saya belum keluar?",
+        "Apa penyebab keterlambatan KHS?",
+        "KHS belum diterbitkan"
+      ],
+      "responses": [
+        "KHS mungkin belum diterbitkan karena dosen belum menyelesaikan input nilai. Silakan tanyakan status nilai Anda ke dosen atau bagian akademik."
+      ]
+    },
+    {
+      "tag": "khs_usefulness",
+      "patterns": [
+        "Untuk apa KHS digunakan?",
+        "Apa fungsi KHS?",
+        "Kegunaan KHS"
+      ],
+      "responses": [
+        "KHS digunakan untuk melihat pencapaian akademik mahasiswa dalam satu semester. Dokumen ini juga sering diperlukan untuk keperluan administrasi seperti beasiswa atau transfer kredit."
+      ]
+    },
+    {
+      "tag": "khs_print",
+      "patterns": [
+        "Apakah saya bisa mencetak KHS sendiri?",
+        "Cara mencetak KHS",
+        "Cetak KHS di mana?"
+      ],
+      "responses": [
+        "Anda bisa mencetak KHS sendiri setelah mengunduhnya dari portal mahasiswa. Pastikan file sudah lengkap sebelum dicetak."
+      ]
+    },
+    {
+      "tag": "khs_check_portal",
+      "patterns": [
+        "Bagaimana cara melihat KHS saya?",
+        "Di mana saya bisa cek KHS?",
+        "Cara melihat hasil studi semester"
+      ],
+      "responses": [
+        "Anda dapat melihat KHS melalui portal akademik mahasiswa pada menu 'Hasil Studi' atau 'KHS'. Pastikan Anda login dengan NIM dan password."
+      ]
+    },
+    {
+      "tag": "khs_edit_request",
+      "patterns": [
+        "Apakah nilai di KHS bisa diubah?",
+        "Bagaimana jika nilai saya salah di KHS?",
+        "Cara mengajukan perubahan nilai di KHS"
+      ],
+      "responses": [
+        "Nilai di KHS hanya dapat diubah jika terjadi kesalahan penginputan. Anda perlu menghubungi dosen pengampu mata kuliah atau bagian akademik."
+      ]
+    },
+    {
+      "tag": "khs_missing",
+      "patterns": [
+        "KHS saya tidak muncul di portal, apa yang harus dilakukan?",
+        "Kenapa KHS tidak tersedia di sistem?",
+        "Apa penyebab KHS tidak terlihat?"
+      ],
+      "responses": [
+        "Jika KHS Anda tidak muncul, pastikan seluruh nilai sudah diinput oleh dosen. Jika tetap tidak terlihat, hubungi bagian akademik untuk konfirmasi."
+      ]
+    },
+    {
+      "tag": "khs_graduation_requirement",
+      "patterns": [
+        "Apakah KHS diperlukan untuk kelulusan?",
+        "Kenapa KHS penting untuk lulus?",
+        "Fungsi KHS dalam proses kelulusan"
+      ],
+      "responses": [
+        "KHS digunakan untuk mengecek total SKS yang sudah diselesaikan dan IPK. Ini menjadi salah satu syarat kelulusan dan persiapan transkrip akhir."
+      ]
+    },
+    {
+      "tag": "khs_semester_release",
+      "patterns": [
+        "Kapan KHS dirilis setiap semester?",
+        "Berapa lama waktu penerbitan KHS?",
+        "Jadwal rilis KHS"
+      ],
+      "responses": [
+        "KHS biasanya dirilis setelah semua nilai selesai diinput oleh dosen, sekitar 2-3 minggu setelah ujian akhir semester berakhir."
+      ]
+    },
+    {
+      "tag": "khs_grades_format",
+      "patterns": [
+        "Format nilai seperti apa yang tercantum di KHS?",
+        "Apakah nilai di KHS berupa angka atau huruf?",
+        "Bagaimana nilai ditampilkan di KHS?"
+      ],
+      "responses": [
+        "Di KHS, nilai ditampilkan dalam bentuk huruf (A, B, C, dll.) dan poin IP yang sesuai, seperti 4.00 untuk A, 3.00 untuk B, dan seterusnya."
+      ]
+    },
+    {
+      "tag": "khs_error",
+      "patterns": [
+        "Apa yang harus saya lakukan jika KHS saya error di portal?",
+        "KHS saya tidak bisa diakses, kenapa?",
+        "Kenapa KHS tidak bisa diunduh?"
+      ],
+      "responses": [
+        "Coba refresh halaman portal atau gunakan perangkat lain. Jika masalah berlanjut, hubungi bagian IT kampus untuk bantuan teknis."
+      ]
+    },
+    {
+      "tag": "khs_purpose",
+      "patterns": [
+        "Untuk apa KHS digunakan?",
+        "Kenapa KHS penting bagi mahasiswa?",
+        "Apa manfaat KHS?"
+      ],
+      "responses": [
+        "KHS digunakan untuk memantau perkembangan akademik Anda, memenuhi syarat administratif seperti beasiswa, dan persiapan transkrip akhir."
+      ]
+    },
+    {
+      "tag": "khs_maximum_sks",
+      "patterns": [
+        "Berapa SKS maksimal berdasarkan KHS?",
+        "Apakah IP semester memengaruhi jumlah SKS yang diambil?",
+        "Jumlah SKS maksimal ditentukan oleh apa?"
+      ],
+      "responses": [
+        "Jumlah SKS maksimal yang dapat Anda ambil ditentukan oleh IP semester sebelumnya yang tercantum di KHS. Biasanya, IP ≥ 3.00 memungkinkan mengambil hingga 24 SKS."
+      ]
+    },
+    {
+      "tag": "khs_saving",
+      "patterns": [
+        "Apakah KHS perlu disimpan?",
+        "Bagaimana cara menyimpan KHS saya?",
+        "Apakah KHS di portal bisa hilang?"
+      ],
+      "responses": [
+        "Disarankan untuk menyimpan salinan KHS setiap semester. Anda dapat mengunduhnya dari portal mahasiswa dan menyimpan sebagai file PDF untuk keperluan mendatang."
+      ]
+    },
+    {
+      "tag": "khs_contact_help",
+      "patterns": [
+        "Siapa yang bisa saya hubungi jika ada masalah dengan KHS?",
+        "Bantuan untuk KHS saya yang bermasalah",
+        "Kontak untuk masalah KHS"
+      ],
+      "responses": [
+        "Jika Anda mengalami masalah terkait KHS, silakan hubungi bagian akademik atau layanan IT kampus melalui email atau kontak resmi mereka."
+      ]
+    },
+    {
+      "tag": "khs_reprint",
+      "patterns": [
+        "Apakah saya bisa mencetak ulang KHS?",
+        "Bagaimana cara mencetak ulang KHS?",
+        "Mencetak ulang KHS"
+      ],
+      "responses": [
+        "Anda bisa mencetak ulang KHS dengan mengunduhnya kembali dari portal mahasiswa atau mengajukan permintaan cetak di TU fakultas."
+      ]
+    },
+    {
+      "tag": "khs_sks_fail",
+      "patterns": [
+        "Bagaimana SKS dihitung jika saya tidak lulus mata kuliah?",
+        "Apa yang terjadi jika nilai saya E di KHS?",
+        "Apakah SKS yang gagal dihitung?"
+      ],
+      "responses": [
+        "Mata kuliah dengan nilai E tidak dihitung dalam SKS lulus Anda, tetapi tetap memengaruhi IPK. Anda perlu mengulang mata kuliah tersebut jika diwajibkan."
+      ]
+    },
+    {
+      "tag": "sks_definition",
+      "patterns": ["Apa itu SKS?", "Pengertian SKS", "SKS itu apa?"],
+      "responses": [
+        "SKS (Satuan Kredit Semester) adalah unit untuk mengukur beban belajar mahasiswa. Setiap mata kuliah memiliki jumlah SKS yang menunjukkan jumlah jam kuliah yang diambil mahasiswa dalam satu semester."
+      ]
+    },
+    {
+      "tag": "sks_requirements",
+      "patterns": [
+        "Berapa SKS minimal yang harus diambil?",
+        "Apa syarat minimal SKS untuk satu semester?",
+        "Berapakah SKS yang perlu diambil dalam satu semester?"
+      ],
+      "responses": [
+        "Jumlah SKS minimal yang harus diambil dalam satu semester adalah 12 SKS untuk mahasiswa program sarjana, tergantung kebijakan masing-masing fakultas."
+      ]
+    },
+    {
+      "tag": "sks_maximum",
+      "patterns": [
+        "Berapa SKS maksimal yang bisa diambil?",
+        "Apa jumlah maksimal SKS per semester?",
+        "Berapakah batas SKS yang bisa diambil dalam satu semester?"
+      ],
+      "responses": [
+        "Jumlah SKS maksimal yang bisa diambil adalah 24 SKS per semester. Jika IP Anda cukup tinggi (biasanya lebih dari 3.00), Anda bisa mengajukan permohonan untuk mengambil SKS lebih dari 24."
+      ]
+    },
+    {
+      "tag": "sks_calculation",
+      "patterns": [
+        "Bagaimana cara menghitung SKS?",
+        "Cara menghitung SKS di universitas",
+        "Bagaimana SKS dihitung?"
+      ],
+      "responses": [
+        "SKS dihitung berdasarkan jumlah jam kuliah dan tugas yang diberikan per minggu. 1 SKS setara dengan 1 jam kuliah per minggu atau 2 jam praktikum/laboratorium."
+      ]
+    },
+    {
+      "tag": "sks_additional",
+      "patterns": [
+        "Apakah saya bisa mengambil lebih dari 24 SKS?",
+        "Bagaimana cara menambah SKS lebih dari batas?",
+        "Bolehkan saya mengambil lebih dari 24 SKS?"
+      ],
+      "responses": [
+        "Anda dapat mengajukan permohonan untuk mengambil lebih dari 24 SKS jika IP Anda di atas 3.00. Permohonan tersebut harus disetujui oleh fakultas."
+      ]
+    },
+    {
+      "tag": "sks_schedule",
+      "patterns": [
+        "Apa pengaruh SKS terhadap jadwal kuliah?",
+        "Apakah SKS menentukan jam kuliah?",
+        "Bagaimana SKS memengaruhi jadwal kuliah?"
+      ],
+      "responses": [
+        "Jumlah SKS yang Anda ambil akan memengaruhi jadwal kuliah Anda. Setiap mata kuliah dengan SKS tertentu akan menentukan berapa kali pertemuan dalam seminggu."
+      ]
+    },
+    {
+      "tag": "sks_exceed",
+      "patterns": [
+        "Apa yang terjadi jika SKS saya melebihi batas?",
+        "Bagaimana jika saya mengambil SKS lebih dari batas?"
+      ],
+      "responses": [
+        "Jika SKS yang Anda ambil melebihi batas maksimal (24 SKS), Anda mungkin perlu mendapatkan persetujuan khusus dari fakultas dan menjalani evaluasi akademik."
+      ]
+    },
+    {
+      "tag": "sks_ipk_impact",
+      "patterns": [
+        "Apakah SKS mempengaruhi IPK?",
+        "Bagaimana SKS berhubungan dengan IPK?",
+        "Apakah semakin banyak SKS, IPK saya akan lebih tinggi?"
+      ],
+      "responses": [
+        "Jumlah SKS yang Anda ambil memengaruhi IPK, tetapi bukan satu-satunya faktor. Nilai setiap mata kuliah akan menentukan IPK Anda, jadi fokus pada hasil terbaik di setiap mata kuliah."
+      ]
+    },
+    {
+      "tag": "sks_impact_on_graduation",
+      "patterns": [
+        "Apakah jumlah SKS berpengaruh pada kelulusan?",
+        "Apa yang terjadi jika saya tidak memenuhi jumlah SKS yang dibutuhkan untuk lulus?",
+        "Apakah saya bisa lulus dengan SKS kurang?"
+      ],
+      "responses": [
+        "Ya, jumlah SKS yang ditempuh berpengaruh pada kelulusan. Anda harus menyelesaikan jumlah SKS yang ditetapkan oleh program studi untuk bisa lulus."
+      ]
+    },
+    {
+      "tag": "sks_failed_courses",
+      "patterns": [
+        "Bagaimana jika saya gagal di mata kuliah dengan SKS besar?",
+        "Apa yang terjadi jika saya tidak lulus mata kuliah dengan SKS?",
+        "Apa yang harus dilakukan jika gagal di mata kuliah yang ber-SKS banyak?"
+      ],
+      "responses": [
+        "Jika Anda gagal di mata kuliah dengan SKS besar, Anda harus mengulang mata kuliah tersebut di semester berikutnya. Mata kuliah yang gagal tetap dihitung dalam perhitungan IPK, tetapi tidak berkontribusi pada jumlah SKS lulus."
+      ]
+    },
+    {
+      "tag": "sks_overload_permission",
+      "patterns": [
+        "Bagaimana cara mendapatkan izin untuk mengambil SKS lebih dari 24?",
+        "Bolehkan saya mengambil SKS lebih banyak dengan izin?",
+        "Izin untuk mengambil lebih dari 24 SKS"
+      ],
+      "responses": [
+        "Untuk mendapatkan izin mengambil lebih dari 24 SKS, Anda perlu mengajukan permohonan ke fakultas dan menunjukkan alasan yang valid, seperti IP tinggi atau rencana studi khusus."
+      ]
+    },
+    {
+      "tag": "sks_passing_criteria",
+      "patterns": [
+        "Berapa banyak SKS yang perlu lulus untuk kelulusan?",
+        "Jumlah SKS yang harus lulus agar bisa lulus?",
+        "Apa kriteria lulus SKS?"
+      ],
+      "responses": [
+        "Untuk kelulusan, Anda perlu lulus minimal 144 SKS untuk program sarjana (tergantung program studi). Pastikan Anda memenuhi semua syarat akademik dan administratif lainnya."
+      ]
+    },
+    {
+      "tag": "sks_balance",
+      "patterns": [
+        "Bagaimana cara menyeimbangkan antara SKS dan kehidupan pribadi?",
+        "Tips mengambil SKS banyak tetapi tetap seimbang",
+        "Bagaimana cara mengelola SKS yang banyak?"
+      ],
+      "responses": [
+        "Penting untuk merencanakan jadwal Anda dengan baik, membuat prioritas, dan menjaga kesehatan. Jangan ragu untuk berkonsultasi dengan dosen pembimbing akademik jika merasa kewalahan."
+      ]
+    },
+    {
+      "tag": "sks_spring_break",
+      "patterns": [
+        "Apakah ada libur semester meskipun mengambil SKS banyak?",
+        "Bagaimana SKS berpengaruh pada liburan atau istirahat?",
+        "Apakah saya bisa libur meskipun mengambil banyak SKS?"
+      ],
+      "responses": [
+        "Meskipun Anda mengambil banyak SKS, Anda tetap berhak atas liburan semester sesuai jadwal akademik universitas. Namun, pastikan Anda memanage waktu belajar dengan baik."
+      ]
+    },
+    {
+      "tag": "sks_transfer",
+      "patterns": [
+        "Apakah SKS bisa ditransfer dari universitas lain?",
+        "Bisakah SKS saya dari universitas lain diakui?",
+        "Transfer SKS antar universitas"
+      ],
+      "responses": [
+        "SKS yang diperoleh dari universitas lain dapat ditransfer, tetapi perlu disetujui oleh fakultas dan program studi. Anda harus melengkapi dokumen dan proses administrasi yang diperlukan."
+      ]
+    },
+    {
+      "tag": "sks_impact_on_schedule",
+      "patterns": [
+        "Bagaimana SKS mempengaruhi jadwal kuliah saya?",
+        "Apa pengaruh SKS terhadap waktu kuliah?",
+        "Berapa jam kuliah per SKS?"
+      ],
+      "responses": [
+        "Setiap SKS berhubungan langsung dengan jumlah jam kuliah per minggu. Biasanya, 1 SKS setara dengan 1 jam kuliah atau 2 jam praktikum per minggu."
+      ]
+    },
+    {
+      "tag": "sks_recommendation",
+      "patterns": [
+        "Berapa SKS yang sebaiknya saya ambil per semester?",
+        "Saran SKS ideal untuk mahasiswa baru",
+        "Berapa banyak SKS yang harus saya ambil agar tidak terlalu berat?"
+      ],
+      "responses": [
+        "Untuk mahasiswa baru, disarankan untuk mengambil antara 12-18 SKS pada semester pertama agar bisa menyesuaikan dengan ritme kuliah dan kehidupan kampus."
+      ]
+    },
+    {
+      "tag": "sks_dropping",
+      "patterns": [
+        "Bagaimana cara membatalkan SKS yang sudah diambil?",
+        "Apakah saya bisa men-drop mata kuliah setelah daftar?",
+        "Apa yang harus dilakukan jika saya ingin men-drop mata kuliah?"
+      ],
+      "responses": [
+        "Jika Anda ingin men-drop mata kuliah, Anda perlu menghubungi bagian akademik atau mengikuti prosedur yang berlaku di kampus dalam waktu yang ditentukan sebelum batas akhir penarikan."
+      ]
+    },
+    {
+      "tag": "sks_additional_activities",
+      "patterns": [
+        "Apakah saya bisa mendapatkan SKS dari kegiatan organisasi?",
+        "Dapatkah saya memperoleh SKS dari kegiatan ekstrakurikuler?",
+        "Bagaimana cara mendapatkan SKS tambahan dari kegiatan kampus?"
+      ],
+      "responses": [
+        "Beberapa kegiatan ekstrakurikuler atau organisasi kampus bisa mendapatkan SKS tambahan. Anda perlu mengajukan kegiatan tersebut kepada fakultas untuk mendapatkan persetujuan dan perhitungan SKS."
+      ]
+    },
+    {
+      "tag": "sks_minimum_for_graduation",
+      "patterns": [
+        "Berapa SKS minimal yang harus diselesaikan untuk lulus?",
+        "Apa jumlah SKS minimal yang diperlukan untuk kelulusan?",
+        "Apakah ada SKS minimal untuk lulus dari program sarjana?"
+      ],
+      "responses": [
+        "Untuk kelulusan dari program sarjana, Anda harus menyelesaikan minimal 144 SKS, sesuai dengan kurikulum yang berlaku di program studi Anda."
+      ]
+    },
+    {
+      "tag": "sks_progress",
+      "patterns": [
+        "Bagaimana cara memeriksa perkembangan SKS saya?",
+        "Dimana saya bisa mengecek jumlah SKS yang sudah saya ambil?",
+        "Apakah ada cara untuk melihat status SKS saya?"
+      ],
+      "responses": [
+        "Anda bisa memeriksa perkembangan SKS Anda melalui portal akademik mahasiswa di menu 'Status Akademik' atau 'Progress SKS'."
+      ]
+    },
+    {
+      "tag": "sks_impact_on_transcript",
+      "patterns": [
+        "Apakah SKS berpengaruh pada transkrip saya?",
+        "Apa peran SKS dalam transkrip akademik?",
+        "Bagaimana SKS mempengaruhi transkrip akademik saya?"
+      ],
+      "responses": [
+        "Jumlah SKS yang telah Anda tempuh dan lulus akan tercantum dalam transkrip akademik sebagai bukti pencapaian studi Anda di setiap semester."
+      ]
+    },
+    {
+      "tag": "sks_impact_on_beasiswa",
+      "patterns": [
+        "Apakah jumlah SKS mempengaruhi beasiswa?",
+        "Bagaimana SKS mempengaruhi kelayakan beasiswa?",
+        "Apakah ada syarat SKS untuk mendapatkan beasiswa?"
+      ],
+      "responses": [
+        "Beberapa beasiswa memiliki persyaratan SKS minimal yang harus dicapai. Pastikan Anda memenuhi jumlah SKS yang dibutuhkan untuk kelayakan beasiswa yang Anda tuju."
+      ]
+    },
+    {
+      "tag": "sks_cumulative",
+      "patterns": [
+        "Apa yang dimaksud dengan SKS kumulatif?",
+        "Bagaimana cara menghitung SKS kumulatif?",
+        "Apa perbedaan SKS kumulatif dengan SKS yang ditempuh?"
+      ],
+      "responses": [
+        "SKS kumulatif adalah jumlah total SKS yang telah Anda tempuh selama masa studi, yang dihitung berdasarkan mata kuliah yang telah diselesaikan dan lulus."
+      ]
+    },
+    {
+      "tag": "sks_overloaded_counseling",
+      "patterns": [
+        "Jika saya mengambil SKS lebih banyak, apakah saya perlu konseling?",
+        "Apakah ada konseling jika saya ingin mengambil SKS lebih dari 24?",
+        "Bagaimana cara mendapatkan persetujuan untuk SKS overload?"
+      ],
+      "responses": [
+        "Jika Anda ingin mengambil lebih dari 24 SKS, biasanya Anda perlu melakukan konseling akademik terlebih dahulu dan mendapatkan persetujuan dari dosen pembimbing dan fakultas."
+      ]
+    },
+    {
+      "tag": "sks_seasonal",
+      "patterns": [
+        "Apakah saya bisa mengambil SKS lebih banyak di semester tertentu?",
+        "Ada semester yang memungkinkan saya mengambil lebih banyak SKS?",
+        "Bagaimana cara mengambil lebih banyak SKS di semester tertentu?"
+      ],
+      "responses": [
+        "Beberapa semester, terutama di semester genap, Anda dapat mengajukan permohonan untuk mengambil lebih banyak SKS dengan persetujuan fakultas, asalkan Anda memenuhi syarat akademik."
+      ]
+    },
+    {
+      "tag": "sks_international_programs",
+      "patterns": [
+        "Apakah SKS saya berlaku untuk program internasional?",
+        "Apakah saya bisa transfer SKS dari program internasional?",
+        "Apakah SKS yang diambil di luar negeri dihitung?"
+      ],
+      "responses": [
+        "Beberapa program internasional memungkinkan transfer SKS ke universitas asal Anda. Anda perlu mengonfirmasi dengan pihak akademik mengenai prosedur dan konversi SKS yang berlaku."
+      ]
+    },
+    {
+      "tag": "sks_fail_policy",
+      "patterns": [
+        "Apa yang terjadi jika saya gagal pada SKS besar?",
+        "Bagaimana cara mengulang mata kuliah dengan SKS tinggi?",
+        "Apa kebijakan kampus terkait kegagalan SKS?"
+      ],
+      "responses": [
+        "Jika Anda gagal pada mata kuliah dengan SKS tinggi, Anda harus mengulang mata kuliah tersebut pada semester berikutnya. Anda juga perlu memperhatikan dampaknya terhadap IPK Anda."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_tersedia",
+      "patterns": [
+        "Apa saja mata kuliah yang tersedia di jurusan saya?",
+        "Mata kuliah apa saja yang bisa saya pilih?",
+        "Daftar mata kuliah yang ditawarkan"
+      ],
+      "responses": [
+        "Mata kuliah yang tersedia tergantung pada program studi dan semester yang sedang berjalan. Anda bisa melihat daftar mata kuliah di portal akademik atau bertanya langsung ke fakultas."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_syarat",
+      "patterns": [
+        "Apa syarat untuk mengambil mata kuliah ini?",
+        "Apa prasyarat sebelum mengambil mata kuliah ini?",
+        "Bagaimana cara memenuhi syarat untuk mata kuliah tertentu?"
+      ],
+      "responses": [
+        "Setiap mata kuliah memiliki syarat atau prasyarat tertentu yang tercantum di katalog akademik. Anda dapat memeriksa mata kuliah yang telah diselesaikan dan mengonsultasikan dengan dosen pembimbing."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_jadwal",
+      "patterns": [
+        "Bagaimana cara melihat jadwal mata kuliah?",
+        "Dimana saya bisa melihat jadwal kuliah saya?",
+        "Jadwal mata kuliah saya bisa dilihat dimana?"
+      ],
+      "responses": [
+        "Jadwal mata kuliah dapat dilihat melalui portal akademik mahasiswa atau aplikasi yang disediakan oleh universitas. Pastikan Anda login dengan akun mahasiswa untuk mengaksesnya."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_ujian",
+      "patterns": [
+        "Kapan ujian mata kuliah ini dilaksanakan?",
+        "Bagaimana cara mengetahui jadwal ujian mata kuliah?",
+        "Dimana saya bisa mengecek jadwal ujian?"
+      ],
+      "responses": [
+        "Jadwal ujian mata kuliah dapat ditemukan di portal akademik mahasiswa atau diumumkan melalui fakultas. Pastikan untuk memeriksa informasi terbaru mengenai ujian."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_tugas",
+      "patterns": [
+        "Apakah ada tugas untuk mata kuliah ini?",
+        "Apa tugas yang harus saya kerjakan di mata kuliah ini?",
+        "Kapan deadline tugas mata kuliah?"
+      ],
+      "responses": [
+        "Tugas untuk setiap mata kuliah biasanya diumumkan oleh dosen melalui platform pembelajaran atau langsung di kelas. Pastikan Anda memeriksa setiap minggu untuk informasi terbaru."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_nilai",
+      "patterns": [
+        "Bagaimana cara mengetahui nilai mata kuliah?",
+        "Dimana saya bisa melihat nilai saya untuk mata kuliah ini?",
+        "Kapan nilai mata kuliah diumumkan?"
+      ],
+      "responses": [
+        "Nilai mata kuliah dapat dilihat melalui portal akademik mahasiswa pada bagian Daftar Nilai atau Status Akademik. Pastikan untuk memeriksa setelah mata kuliah selesai."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_kode",
+      "patterns": [
+        "Apa itu kode mata kuliah?",
+        "Bagaimana cara mencari kode mata kuliah?",
+        "Dimana saya bisa melihat kode mata kuliah?"
+      ],
+      "responses": [
+        "Kode mata kuliah adalah kode unik yang digunakan untuk mengidentifikasi setiap mata kuliah. Anda bisa menemukan kode mata kuliah di katalog akademik atau di portal akademik."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_online",
+      "patterns": [
+        "Apakah mata kuliah ini tersedia secara online?",
+        "Bagaimana cara mengikuti mata kuliah secara online?",
+        "Apakah ada mata kuliah yang bisa saya ambil secara daring?"
+      ],
+      "responses": [
+        "Beberapa mata kuliah ditawarkan secara online. Anda dapat mengecek apakah mata kuliah tertentu tersedia secara daring melalui portal akademik atau bertanya ke fakultas."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_tugas_akhir",
+      "patterns": [
+        "Apa yang dimaksud dengan tugas akhir di mata kuliah?",
+        "Bagaimana cara mengambil mata kuliah tugas akhir?",
+        "Apa saja syarat untuk mengambil mata kuliah tugas akhir?"
+      ],
+      "responses": [
+        "Mata kuliah tugas akhir adalah mata kuliah yang biasanya diambil di semester akhir dan berfokus pada penyusunan skripsi atau proyek akhir. Anda perlu memenuhi beberapa persyaratan akademik sebelum bisa mengambil mata kuliah ini."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_akreditasi",
+      "patterns": [
+        "Apakah mata kuliah ini terakreditasi?",
+        "Bagaimana cara mengetahui akreditasi mata kuliah?",
+        "Mata kuliah ini sudah terakreditasi atau belum?"
+      ],
+      "responses": [
+        "Mata kuliah di universitas umumnya terakreditasi sesuai dengan program studi. Anda bisa mengecek status akreditasi melalui website universitas atau mengonsultasikan dengan fakultas."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_jenis",
+      "patterns": [
+        "Apa jenis mata kuliah ini?",
+        "Mata kuliah ini termasuk mata kuliah apa?",
+        "Apakah mata kuliah ini termasuk mata kuliah wajib atau pilihan?"
+      ],
+      "responses": [
+        "Mata kuliah dapat dibagi menjadi mata kuliah wajib, mata kuliah pilihan, atau mata kuliah pengembangan. Cek deskripsi mata kuliah untuk mengetahui kategori masing-masing mata kuliah."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_jumlah_sks",
+      "patterns": [
+        "Berapa banyak SKS untuk mata kuliah ini?",
+        "Mata kuliah ini berapa SKS-nya?",
+        "Bagaimana cara mengetahui jumlah SKS untuk mata kuliah?"
+      ],
+      "responses": [
+        "Jumlah SKS mata kuliah tercantum dalam deskripsi mata kuliah di katalog akademik. Umumnya, mata kuliah dengan kuliah teori memiliki 2-3 SKS, sementara mata kuliah praktikum bisa lebih."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_pengganti",
+      "patterns": [
+        "Apa yang terjadi jika saya ingin mengganti mata kuliah?",
+        "Bagaimana cara mengganti mata kuliah yang sudah saya ambil?",
+        "Apakah saya bisa mengganti mata kuliah setelah memilih?"
+      ],
+      "responses": [
+        "Anda dapat mengganti mata kuliah dengan mengikuti prosedur yang ditetapkan oleh fakultas, biasanya dalam periode tertentu setelah pendaftaran. Pastikan Anda mengonfirmasi dengan pihak akademik."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_interaksi_dosen",
+      "patterns": [
+        "Bagaimana cara berinteraksi dengan dosen untuk mata kuliah ini?",
+        "Dimana saya bisa bertanya kepada dosen mata kuliah ini?",
+        "Dosen mata kuliah ini bisa dihubungi melalui apa?"
+      ],
+      "responses": [
+        "Dosen biasanya memberikan informasi kontak melalui platform pembelajaran online atau saat pertemuan tatap muka. Anda juga bisa menghubungi mereka melalui email atau jadwal jam konsultasi yang disediakan."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_cek_ketersediaan",
+      "patterns": [
+        "Apakah mata kuliah ini masih tersedia?",
+        "Bagaimana cara mengetahui mata kuliah sudah penuh atau belum?",
+        "Apakah saya bisa mendaftar ke mata kuliah yang sudah penuh?"
+      ],
+      "responses": [
+        "Anda bisa mengecek ketersediaan mata kuliah melalui portal akademik saat pendaftaran. Jika mata kuliah sudah penuh, Anda dapat memilih mata kuliah lain atau mendaftar ulang pada kesempatan berikutnya."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_silabus",
+      "patterns": [
+        "Dimana saya bisa mendapatkan silabus mata kuliah?",
+        "Apa itu silabus mata kuliah?",
+        "Bagaimana cara melihat silabus mata kuliah?"
+      ],
+      "responses": [
+        "Silabus mata kuliah biasanya dapat diunduh dari platform pembelajaran yang digunakan oleh dosen, atau bisa Anda minta langsung ke dosen pengampu mata kuliah."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_batas_waktu",
+      "patterns": [
+        "Apa batas waktu pendaftaran mata kuliah?",
+        "Kapan batas akhir pendaftaran mata kuliah?",
+        "Bagaimana cara mengetahui batas waktu untuk memilih mata kuliah?"
+      ],
+      "responses": [
+        "Batas waktu pendaftaran mata kuliah biasanya diumumkan di portal akademik dan melalui pengumuman fakultas. Pastikan Anda mendaftar sebelum batas waktu yang ditentukan."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_bimbingan",
+      "patterns": [
+        "Apakah ada bimbingan untuk mata kuliah ini?",
+        "Bagaimana cara mengikuti bimbingan untuk mata kuliah?",
+        "Kapan waktu bimbingan mata kuliah ini?"
+      ],
+      "responses": [
+        "Bimbingan untuk mata kuliah biasanya disediakan oleh dosen dalam waktu tertentu, baik itu tatap muka atau melalui online. Anda bisa mengonfirmasi jadwal bimbingan di portal akademik atau dengan dosen."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_modul",
+      "patterns": [
+        "Dimana saya bisa mendapatkan modul mata kuliah?",
+        "Apakah ada modul untuk mata kuliah ini?",
+        "Bagaimana cara mendapatkan modul kuliah?"
+      ],
+      "responses": [
+        "Modul mata kuliah biasanya tersedia di platform pembelajaran universitas atau bisa diambil langsung dari dosen pengampu mata kuliah."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_pendaftaran",
+      "patterns": [
+        "Bagaimana cara mendaftar untuk mata kuliah?",
+        "Dimana saya bisa melakukan pendaftaran mata kuliah?",
+        "Apakah ada sistem untuk memilih mata kuliah?"
+      ],
+      "responses": [
+        "Pendaftaran mata kuliah biasanya dilakukan melalui portal akademik atau aplikasi universitas. Anda bisa memilih mata kuliah yang ingin diambil selama periode pendaftaran yang ditentukan."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_kuota",
+      "patterns": [
+        "Berapa kuota untuk setiap mata kuliah?",
+        "Apakah ada kuota untuk mata kuliah?",
+        "Mata kuliah ini sudah penuh atau masih tersedia?"
+      ],
+      "responses": [
+        "Beberapa mata kuliah memiliki kuota terbatas. Anda bisa memeriksa status kuota melalui portal akademik atau selama proses pendaftaran."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_ujian_akhir",
+      "patterns": [
+        "Apa jenis ujian untuk mata kuliah ini?",
+        "Apakah mata kuliah ini memiliki ujian akhir?",
+        "Kapan ujian akhir mata kuliah ini dilaksanakan?"
+      ],
+      "responses": [
+        "Jenis ujian akhir untuk mata kuliah ini bisa berupa ujian tulis, ujian praktik, atau tugas akhir. Anda bisa mengecek informasi lebih lanjut di portal akademik atau bertanya langsung kepada dosen pengampu."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_perubahan",
+      "patterns": [
+        "Bisakah saya mengubah mata kuliah yang sudah saya pilih?",
+        "Bagaimana cara mengganti mata kuliah yang sudah saya pilih?",
+        "Apakah ada periode untuk mengganti mata kuliah?"
+      ],
+      "responses": [
+        "Jika Anda ingin mengganti mata kuliah, Anda dapat melakukannya dalam periode perubahan yang ditetapkan oleh universitas. Biasanya, perubahan ini hanya dapat dilakukan dalam beberapa minggu pertama setelah pendaftaran."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_wajib_terlambat",
+      "patterns": [
+        "Apa yang terjadi jika saya terlambat mengambil mata kuliah wajib?",
+        "Apakah ada konsekuensi jika saya tidak mengambil mata kuliah wajib?",
+        "Bisakah saya mengambil mata kuliah wajib di semester berikutnya?"
+      ],
+      "responses": [
+        "Jika Anda terlambat mengambil mata kuliah wajib, Anda bisa mencoba mengambilnya di semester berikutnya. Namun, hal ini bisa mempengaruhi kelulusan tepat waktu, jadi pastikan mengikuti jadwal yang telah ditentukan."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_dosen_pengampu",
+      "patterns": [
+        "Siapa dosen pengampu mata kuliah ini?",
+        "Bagaimana cara mengetahui siapa dosen pengampu mata kuliah?",
+        "Dosen pengampu mata kuliah ini siapa?"
+      ],
+      "responses": [
+        "Dosen pengampu mata kuliah dapat ditemukan di jadwal kuliah yang tercantum di portal akademik atau di pengumuman resmi yang dikeluarkan oleh fakultas."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_komunikasi_dosen",
+      "patterns": [
+        "Bagaimana cara berkomunikasi dengan dosen mata kuliah ini?",
+        "Apakah ada platform khusus untuk berkomunikasi dengan dosen?",
+        "Dosen bisa dihubungi lewat apa untuk mata kuliah ini?"
+      ],
+      "responses": [
+        "Dosen biasanya dapat dihubungi melalui email atau platform komunikasi universitas. Anda juga bisa mengunjungi dosen saat jam konsultasi untuk bertanya langsung."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_ulang",
+      "patterns": [
+        "Apa yang harus saya lakukan jika ingin mengulang mata kuliah?",
+        "Bagaimana cara mengambil mata kuliah yang gagal?",
+        "Apakah saya bisa mengambil mata kuliah yang sudah saya gagalkan?"
+      ],
+      "responses": [
+        "Jika Anda gagal dalam suatu mata kuliah, Anda bisa mengambil mata kuliah tersebut di semester berikutnya, tergantung kebijakan fakultas dan persyaratan akademik."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_asistensi",
+      "patterns": [
+        "Apakah ada asistensi untuk mata kuliah ini?",
+        "Bagaimana cara mengikuti kelas asistensi untuk mata kuliah?",
+        "Apa itu kelas asistensi untuk mata kuliah?"
+      ],
+      "responses": [
+        "Kelas asistensi biasanya disediakan untuk membantu mahasiswa memahami materi yang lebih sulit. Anda bisa mengecek apakah mata kuliah ini memiliki kelas asistensi di portal akademik."
+      ]
+    },
+    {
+      "tag": "mata_kuliah_eksperimen",
+      "patterns": [
+        "Apakah mata kuliah ini memiliki eksperimen?",
+        "Bagaimana cara mengikuti eksperimen di mata kuliah?",
+        "Apa jenis eksperimen yang ada di mata kuliah ini?"
+      ],
+      "responses": [
+        "Beberapa mata kuliah memiliki eksperimen atau praktikum sebagai bagian dari pembelajarannya. Anda dapat memeriksa apakah mata kuliah ini memiliki eksperimen di silabus atau menanyakan langsung kepada dosen."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_definisi",
+      "patterns": [
+        "Apa itu transkrip nilai?",
+        "Transkrip nilai itu apa?",
+        "Jelaskan tentang transkrip nilai"
+      ],
+      "responses": [
+        "Transkrip nilai adalah dokumen resmi yang memuat daftar nilai yang diperoleh oleh mahasiswa selama masa studi. Transkrip ini mencatat semua mata kuliah yang telah diambil, jumlah SKS, dan nilai yang diperoleh di setiap mata kuliah."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_dapatkan",
+      "patterns": [
+        "Dimana saya bisa mendapatkan transkrip nilai?",
+        "Bagaimana cara mendapatkan transkrip nilai?",
+        "Dimana saya bisa melihat transkrip nilai saya?"
+      ],
+      "responses": [
+        "Transkrip nilai bisa diambil melalui Portal Akademik (PAK) Mahasiswa di bagian 'Transkrip Nilai' atau bisa diambil langsung di bagian Tata Usaha (TU) Fakultas."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_online",
+      "patterns": [
+        "Apakah transkrip nilai bisa dilihat secara online?",
+        "Bisakah saya melihat transkrip nilai saya di internet?",
+        "Bagaimana cara mengakses transkrip nilai secara online?"
+      ],
+      "responses": [
+        "Ya, Anda bisa mengakses transkrip nilai secara online melalui Portal Akademik (PAK) Mahasiswa. Pastikan Anda login menggunakan akun mahasiswa yang valid."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_untuk_beasiswa",
+      "patterns": [
+        "Apakah saya bisa menggunakan transkrip nilai untuk beasiswa?",
+        "Dapatkah saya mengajukan beasiswa menggunakan transkrip nilai?",
+        "Bagaimana menggunakan transkrip nilai untuk aplikasi beasiswa?"
+      ],
+      "responses": [
+        "Transkrip nilai sering digunakan sebagai salah satu persyaratan untuk pengajuan beasiswa. Pastikan transkrip yang digunakan adalah yang terbaru dan sesuai dengan persyaratan yang diminta oleh lembaga pemberi beasiswa."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_diperbarui",
+      "patterns": [
+        "Kapan transkrip nilai saya akan diperbarui?",
+        "Bagaimana cara mengetahui apakah transkrip saya sudah diperbarui?",
+        "Apa yang perlu dilakukan untuk memperbarui transkrip nilai?"
+      ],
+      "responses": [
+        "Transkrip nilai akan diperbarui setelah selesai ujian akhir dan nilai telah diproses oleh pihak akademik. Anda bisa memeriksa status pembaruan melalui Portal Akademik atau menanyakan langsung ke TU Fakultas."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_pindah_fakultas",
+      "patterns": [
+        "Apakah transkrip nilai berubah jika saya pindah fakultas?",
+        "Apa yang terjadi dengan transkrip nilai saya jika saya pindah fakultas?",
+        "Bagaimana pengaruh pindah fakultas terhadap transkrip nilai?"
+      ],
+      "responses": [
+        "Transkrip nilai Anda tetap sama meskipun Anda pindah fakultas. Namun, mata kuliah yang sudah diambil akan tercatat dengan keterangan sesuai fakultas asal. Anda dapat memeriksa detailnya pada transkrip nilai yang baru."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_tingkatkan",
+      "patterns": [
+        "Bagaimana cara meningkatkan nilai di transkrip?",
+        "Bisakah nilai di transkrip saya diperbaiki?",
+        "Apakah ada cara untuk memperbaiki nilai di transkrip?"
+      ],
+      "responses": [
+        "Nilai di transkrip tidak dapat diubah kecuali ada kesalahan administratif. Jika Anda merasa ada kesalahan pada transkrip nilai, Anda dapat menghubungi pihak akademik atau TU Fakultas untuk verifikasi dan pembetulan."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_digital",
+      "patterns": [
+        "Apakah transkrip nilai tersedia dalam format digital?",
+        "Bisa kah saya mendapatkan transkrip nilai dalam format PDF?",
+        "Apakah transkrip nilai tersedia secara digital?"
+      ],
+      "responses": [
+        "Ya, transkrip nilai kini dapat diunduh dalam format digital (PDF) melalui Portal Akademik (PAK) Mahasiswa. Anda bisa mengaksesnya kapan saja selama Anda terhubung ke internet."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_terkirim",
+      "patterns": [
+        "Bagaimana cara mengirimkan transkrip nilai ke tempat lain?",
+        "Dapatkah saya mengirimkan transkrip nilai ke universitas lain?",
+        "Apakah bisa mengirim transkrip nilai melalui email?"
+      ],
+      "responses": [
+        "Transkrip nilai dapat dikirimkan ke pihak lain melalui email dalam format PDF. Anda bisa mengunduhnya melalui Portal Akademik dan mengirimkannya ke alamat yang diinginkan. Untuk pengiriman resmi, Anda bisa mengajukan permohonan melalui TU Fakultas."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_gelar",
+      "patterns": [
+        "Apakah transkrip nilai mencakup gelar saya?",
+        "Di mana saya bisa melihat gelar saya di transkrip?",
+        "Gelarku tercatat di transkrip nilai?"
+      ],
+      "responses": [
+        "Gelar Anda akan tercatat di bagian akhir transkrip nilai setelah Anda menyelesaikan semua mata kuliah yang diperlukan dan lulus dengan memenuhi persyaratan akademik."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_legalisasi",
+      "patterns": [
+        "Bagaimana cara melegalisasi transkrip nilai?",
+        "Apakah saya perlu melegalisasi transkrip nilai?",
+        "Di mana saya bisa melegalisasi transkrip nilai?"
+      ],
+      "responses": [
+        "Untuk melegalisasi transkrip nilai, Anda dapat mengajukan permohonan melalui TU Fakultas atau kantor administrasi akademik. Biasanya proses legalisasi ini memerlukan waktu beberapa hari kerja."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_konversi",
+      "patterns": [
+        "Apakah saya bisa mengonversi transkrip nilai ke sistem lain?",
+        "Bagaimana cara mengonversi transkrip nilai saya?",
+        "Dapatkah transkrip nilai saya dikonversi?"
+      ],
+      "responses": [
+        "Proses konversi transkrip nilai ke sistem lain tergantung pada kebijakan universitas atau lembaga yang menerima transkrip Anda. Anda bisa menghubungi pihak universitas atau lembaga tersebut untuk mengetahui prosedur konversi."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_cepat",
+      "patterns": [
+        "Bagaimana cara mendapatkan transkrip nilai dengan cepat?",
+        "Apakah ada cara agar transkrip nilai cepat keluar?",
+        "Berapa lama waktu yang diperlukan untuk mendapatkan transkrip nilai?"
+      ],
+      "responses": [
+        "Waktu yang dibutuhkan untuk mendapatkan transkrip nilai biasanya memakan waktu beberapa hari setelah proses input nilai selesai. Untuk transkrip nilai yang lebih cepat, Anda bisa meminta informasi lebih lanjut ke TU Fakultas atau bagian akademik."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_untuk_kerja",
+      "patterns": [
+        "Dapatkah transkrip nilai digunakan untuk melamar pekerjaan?",
+        "Apakah transkrip nilai diperlukan saat melamar kerja?",
+        "Bisakah saya menggunakan transkrip untuk melamar kerja?"
+      ],
+      "responses": [
+        "Ya, banyak perusahaan yang meminta transkrip nilai sebagai bagian dari persyaratan melamar pekerjaan, terutama untuk posisi yang membutuhkan kualifikasi akademik."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_mahasiswa_aktif",
+      "patterns": [
+        "Apakah saya bisa mendapatkan transkrip nilai jika saya masih mahasiswa aktif?",
+        "Dapatkah mahasiswa aktif mengambil transkrip nilai?",
+        "Bagaimana cara mendapatkan transkrip nilai sebagai mahasiswa aktif?"
+      ],
+      "responses": [
+        "Ya, sebagai mahasiswa aktif, Anda dapat mengakses transkrip nilai Anda melalui Portal Akademik atau mengajukan permintaan melalui TU Fakultas."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_setelah_lulus",
+      "patterns": [
+        "Bagaimana cara mendapatkan transkrip nilai setelah saya lulus?",
+        "Apakah saya bisa mendapatkan transkrip nilai setelah kelulusan?",
+        "Bagaimana cara mengakses transkrip nilai setelah lulus?"
+      ],
+      "responses": [
+        "Setelah lulus, Anda dapat mengakses transkrip nilai secara online melalui Portal Akademik atau menghubungi bagian Tata Usaha Fakultas untuk mendapatkan transkrip resmi."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_biaya",
+      "patterns": [
+        "Apakah ada biaya untuk mengambil transkrip nilai?",
+        "Berapa biaya untuk mendapatkan transkrip nilai?",
+        "Apakah saya perlu membayar untuk transkrip nilai?"
+      ],
+      "responses": [
+        "Biasanya, transkrip nilai dapat diambil tanpa biaya. Namun, jika Anda memerlukan salinan resmi atau legalisasi, mungkin ada biaya administrasi yang harus dibayar."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_tersegel",
+      "patterns": [
+        "Bagaimana cara mendapatkan transkrip nilai yang tersegel?",
+        "Apakah saya bisa mendapatkan transkrip nilai yang tersegel?",
+        "Apa itu transkrip nilai tersegel dan bagaimana cara mendapatkannya?"
+      ],
+      "responses": [
+        "Transkrip nilai tersegel biasanya diberikan dalam bentuk resmi dan terjamin keasliannya. Anda bisa mengajukan permohonan transkrip nilai tersegel melalui TU Fakultas dengan menyertakan alasan pengajuan."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_temporary",
+      "patterns": [
+        "Apakah saya bisa mendapatkan transkrip nilai sementara?",
+        "Dapatkah saya mendapatkan transkrip nilai sementara jika belum selesai studi?",
+        "Bagaimana cara mendapatkan transkrip nilai sementara?"
+      ],
+      "responses": [
+        "Transkrip nilai sementara bisa dikeluarkan oleh universitas sebagai bukti akademik sementara sebelum transkrip resmi selesai. Anda bisa mengajukan permohonan transkrip nilai sementara di TU Fakultas."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_digital_legalitas",
+      "patterns": [
+        "Apakah transkrip nilai digital bisa diakui secara legal?",
+        "Bisakah transkrip nilai digital digunakan sebagai dokumen resmi?",
+        "Apakah transkrip nilai dalam format PDF legal?"
+      ],
+      "responses": [
+        "Transkrip nilai digital yang diunduh dari sistem resmi universitas dapat diakui sebagai dokumen sah, selama universitas tersebut telah menyediakan verifikasi digital atau kode QR untuk keaslian."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_cek_status",
+      "patterns": [
+        "Bagaimana cara mengecek status transkrip nilai saya?",
+        "Apakah ada cara untuk memeriksa status pembaruan transkrip nilai?",
+        "Di mana saya bisa memeriksa apakah transkrip saya sudah siap?"
+      ],
+      "responses": [
+        "Anda bisa memeriksa status transkrip nilai Anda melalui Portal Akademik atau menghubungi bagian TU Fakultas untuk menanyakan status pembaruan atau ketersediaan transkrip."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_surat_pernyataan",
+      "patterns": [
+        "Apakah saya perlu membuat surat pernyataan untuk mendapatkan transkrip nilai?",
+        "Apakah ada persyaratan surat pernyataan untuk mengambil transkrip nilai?",
+        "Dapatkah saya mendapatkan transkrip tanpa surat pernyataan?"
+      ],
+      "responses": [
+        "Beberapa universitas mungkin memerlukan surat pernyataan atau pengajuan khusus untuk mengambil transkrip nilai, terutama jika Anda membutuhkan transkrip resmi atau legalisasi. Pastikan untuk memeriksa persyaratan di TU Fakultas."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_dalam_bahasa_asing",
+      "patterns": [
+        "Bisakah saya mendapatkan transkrip nilai dalam bahasa Inggris?",
+        "Apakah transkrip nilai bisa diterjemahkan ke bahasa asing?",
+        "Dapatkah transkrip nilai diterjemahkan?"
+      ],
+      "responses": [
+        "Ya, beberapa universitas menyediakan layanan terjemahan transkrip nilai ke bahasa Inggris atau bahasa asing lainnya, terutama untuk kebutuhan melamar pekerjaan atau beasiswa internasional. Anda dapat meminta terjemahan resmi melalui TU Fakultas."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_foto_kopi",
+      "patterns": [
+        "Apakah transkrip nilai bisa diberikan dalam bentuk fotokopi?",
+        "Dapatkah saya meminta fotokopi transkrip nilai?",
+        "Bagaimana cara mendapatkan fotokopi transkrip nilai?"
+      ],
+      "responses": [
+        "Transkrip nilai umumnya diberikan dalam bentuk salinan resmi, namun Anda juga bisa meminta fotokopi transkrip nilai sebagai salinan pribadi di TU Fakultas. Fotokopi tersebut mungkin tidak berlaku sebagai dokumen resmi."
+      ]
+    },
+    {
+      "tag": "transkrip_nilai_untuk_studi_lanjut",
+      "patterns": [
+        "Apakah saya membutuhkan transkrip nilai untuk melanjutkan studi ke luar negeri?",
+        "Bagaimana cara menggunakan transkrip nilai untuk mendaftar ke universitas luar negeri?",
+        "Dapatkah transkrip nilai digunakan untuk aplikasi studi lanjut?"
+      ],
+      "responses": [
+        "Transkrip nilai sering kali menjadi salah satu persyaratan utama dalam pendaftaran studi lanjut, baik di dalam negeri maupun luar negeri. Pastikan transkrip nilai Anda terbaru dan sesuai dengan persyaratan universitas tujuan."
+      ]
+    }
+  ]
+}
