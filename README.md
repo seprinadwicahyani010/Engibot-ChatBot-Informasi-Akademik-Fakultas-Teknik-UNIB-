@@ -39,10 +39,11 @@ Model EngiBot dirancang menggunakan arsitektur Long Short-Term Memory (LSTM). Be
 ## Hasil dan Pembahasan
 #### Grafik Akurasi dan Loss
 ![Grafik Evaluasi](https://github.com/seprinadwicahyani010/Engibot-ChatBot-Informasi-Akademik-Fakultas-Teknik-UNIB-/blob/0c150eb2790fb13c254b9dbd1387b497f5989088/Hasil%20Evaluasi/Matriks%20Akurasi%20dan%20Loss.png)
+Evaluasi dilakukan dengan melihat perkembangan nilai loss dan akurasi model selama proses pelatihan. Dari grafik tersebut, terlihat bahwa seiring bertambahnya epoch, nilai loss cenderung menurun, yang menandakan bahwa model semakin baik dalam memprediksi data latih. Sebaliknya, nilai akurasi meningkat, menunjukkan bahwa model semakin akurat dalam klasifikasi. 
+
 #### Output
 ![image](https://github.com/user-attachments/assets/b1befbdc-d627-45db-85d7-6048ae17e631)
-
-Hasil Evaluasi menunjukkan bahwa model EngiBot memiliki rata-rata akurasi yang sangat tinggi, yaitu **99.8%** dengan nilai loss terakhir sebesar 0.1030 setelah melalui 150 epoch pelatihan. 
+Hasil Evaluasi menunjukkan bahwa model EngiBot memiliki rata-rata akurasi yang sangat tinggi, yaitu **99.8%** dengan nilai loss terakhir sebesar 0.1030 setelah melalui 150 epoch pelatihan. Hasil ini menunjukkan bahwa model belajar dengan baik dan tidak mengalami overfitting atau underfitting yang signifikan, karena kedua metrik tersebut stabil mendekati nilai optimal di akhir proses pelatihan.
 
 ## Kesimpulan
-EngiBot berhasil menunjukkan kinerja yang memuaskan sebagai chatbot informasi akademik. Hasil evaluasi menunjukkan bahwa EngiBot mencapai akurasi tinggi (>90%) pada skenario pengujian tertentu dan mampu merespons dalam waktu kurang dari 1 detik pada sebagian besar kasus. Dengan implementasi pipeline NLP yang baik dan penggunaan dataset yang relevan, sistem ini mampu memberikan jawaban akurat dan cepat. Proyek ini dapat dikembangkan lebih lanjut dengan menambahkan fitur lain seperti integrasi dengan sistem akademik universitas atau kemampuan multibahasa.
+Chatbot ini berhasil menjawab pertanyaan-pertanyaan terkait informasi akademik, seperti pengisian KRS dan akses ke transkrip nilai, sesuai dengan kebutuhan pengguna. Pembuka dan penutup yang ramah semakin memperkuat kualitas interaksi, menciptakan pengalaman pengguna yang positif. Dengan demikian, chatbot ini diharapkan dapat menjadi solusi yang bermanfaat bagi mahasiswa dalam mengatasi berbagai kesulitan terkait urusan akademik, terutama dalam hal mendapatkan informasi secara cepat dan akurat melalui layanan chatbot otomatis.
